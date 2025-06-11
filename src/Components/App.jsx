@@ -10,8 +10,10 @@ import FooterPage from './FooterPage';
 import { Routes, Route } from 'react-router-dom';
 import AboutUsPage from './AboutUsPage';
 import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import CartButton from './CartButton';
 
 
 
@@ -40,6 +42,7 @@ const App=()=>{
     </Routes>
     <div>
     <FooterPage/>
+    <CartButton/>
     
     
     </div>
