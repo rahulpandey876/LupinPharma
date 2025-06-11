@@ -1,0 +1,30 @@
+
+#NumbersPage-heading{
+    font-size:50px;
+    color:#2A357E;
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    
+
+}
+.NumbersPage-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px
+}
+.NumbersPage-list li {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:5px
+   
+  }
+  .NumbersPage-list li span{
+    font-weight:bold;
+    font-size:60px;
+    background:linear-gradient(to right,#2B357D,#28A745);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
+  }

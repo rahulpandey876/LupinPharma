@@ -1,0 +1,89 @@
+
+
+
+.headerpage{
+    width:100vw;
+    background-color:#00AE4D;
+    padding:1% 10%;
+    //padding:0px;
+    display:flex;
+    justify-content:space-between
+
+}
+
+.hamburgerMenu{
+    width:40px;
+    height:40px;
+   color:#F5F5F5;
+    display:none
+   
+}
+
+#LupinLogo{
+    width:45px ;
+   
+}
+
+.headerpage-list{
+    color:white;
+    
+    font-weight:bold;
+    display:flex;
+    gap:20px;
+    align-items:center
+}
+
+.headerpage-list-responsive{
+    color:white;
+ font-weight:bold;
+    padding-top:10px;
+    padding-left:40px;
+    margin-top:15px;
+  background-color:#00AE4D;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  
+ 
+}
+
+.headerpage-responsive{
+    display:none
+}
+
+#RaiseArrow1 {
+    width: 15px; /* Adjust the size as needed */
+    height: 15px;
+    padding-top:5px;
+    
+}
+
+#RaiseArrow2 {
+    width: 15px; /* Adjust the size as needed */
+    height: 15px;
+    padding-top:5px;
+}
+
+#RaiseArrow3 {
+    width: 15px; /* Adjust the size as needed */
+    height: 15px;
+    padding-top:5px;
+}
+
+/* Responsive Design */
+
+@media(max-width:650px){
+    .hamburgerMenu{
+        display:block;
+        margin-left:auto ;
+        margin-top:-60px;
+        
+    }
+    .headerpage-list{
+        display:none
+    }
+    .headerpage-responsive{
+        display:block
+       
+    }
+}

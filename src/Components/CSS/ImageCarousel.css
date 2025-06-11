@@ -1,0 +1,128 @@
+
+
+
+
+.CarousalImage{
+    width:100%;
+    height:450px
+}
+
+.thumbnail{
+    width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit:cover;
+  cursor:pointer;
+  object-fit: cover;
+  border: 4px solid #D3D3D3;
+  transition: transform 0.3s ease-in-out
+    
+  }
+  .thumbnail:hover{
+    transform: translateY(-10px);
+    
+  }
+  .thumbnail-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    position:absolute;
+    bottom:-50px;
+    
+    
+  }
+  .thumbnail.active {
+    border: 4px solid black;
+  }
+
+  .slider-container{
+    position:relative
+  }
+
+  .CarousalImage-text1{
+    position:absolute;
+    
+    top:30%;
+    margin-left:1%
+  }
+  .CarousalImage-text1 h3{
+    font-size:50px;
+    
+    color:#2A357E;
+  }
+  .CarousalImage-text1 button{
+    background-color:#00AE4D;
+    font-size:20px;
+    color:white;
+    margin-top:5px;
+    padding:10px 30px;
+    border:none;
+    border-radius:8px
+  }
+  .CarousalImage-text2{
+    position:absolute;
+    
+    top:30%;
+    margin-left:1%
+  }
+  .CarousalImage-text2 h3{
+    font-size:50px;
+    
+    color:#2A357E;
+  }
+  .CarousalImage-text2 button{
+    background-color:#00AE4D;
+    font-size:20px;
+    color:white;
+    margin-top:5px;
+    padding:10px 30px;
+    border:none;
+    border-radius:8px
+  }
+
+  .CarousalImage-text3{
+    position:absolute;
+    
+    top:30%;
+    margin-left:1%
+  }
+  .CarousalImage-text3 h3{
+    font-size:50px;
+    
+    color:#2A357E;
+  }
+  .CarousalImage-text3 button{
+    background-color:#00AE4D;
+    font-size:20px;
+    color:white;
+    margin-top:5px;
+    padding:10px 30px;
+    border:none;
+    border-radius:8px
+  }
+
+  .CarousalImage-text4{
+    position:absolute;
+    top:30%;
+    margin-left:1%
+  }
+  .CarousalImage-text4 h3{
+    font-size:50px;
+    color:white;
+  }
+  .CarousalImage-text4 button{
+    background-color:#00AE4D;
+    font-size:20px;
+    color:white;
+    margin-top:5px;
+    padding:10px 30px;
+    border:none;
+    border-radius:8px
+  }
+
+@media(max-width:800px){
+    .CarousalImage{
+        height:350px
+    }
+}

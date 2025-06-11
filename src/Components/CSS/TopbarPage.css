@@ -1,0 +1,26 @@
+.topbarpage{
+    width:100vw;
+    background-color:#2A357E;
+    color:white;
+   padding:1% 10%;
+   /* padding:0px; */
+    
+    
+    
+
+}
+.topbarpage-list{
+    font-size:14px;
+    display:flex;
+    justify-content:end;
+    align-items:center;
+    gap:13px
+}
+
+
+@media(max-width:490px){
+    .topbarpage-list{
+        font-size:10px;
+        gap:8px
+    }
+}

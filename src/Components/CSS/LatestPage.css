@@ -1,0 +1,124 @@
+
+.latestpage{
+    margin-top:30px;
+    
+}
+
+.latestpage h3{
+    text-align:center;
+    font-size:40px;
+    color:#2A357E;
+    margin-bottom:20px
+
+}
+
+
+.latest-images{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+   
+   
+    
+}
+.latestimage img{
+    width:246px;
+    height:330px;
+    border-radius:10px;
+    transition: transform 0.3s;
+   }
+   .latestimage img:hover{
+    transform:scale(1.05);
+   
+}
+
+.overlay {
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    right: 0;
+    height: 60%;
+    background: linear-gradient(to top, gray, transparent);
+    border-radius:10px;
+    z-index: 1;
+    opacity:1;
+    transition:opacity 0.3s ease-in-out
+  }
+  .latestimage:hover .overlay{
+    opacity:1;
+  }
+.latestimage{
+    position:relative;
+    overflow:hidden
+}
+#Investors{
+    position:absolute;
+    top:50%;
+    margin-left:10px;
+    padding:10px;
+}
+#Investors h4{
+    background-color:#00AE4D;
+    width:110px;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+}
+#Investors p{
+    color:blue;
+    font-weight:bold;
+}
+
+#PressRelease{
+    position:absolute;
+    top:50%;
+    margin-left:10px;
+    padding:10px;
+}
+#PressRelease h4{
+    background-color:#00AE4D;
+    padding:5px 10px;
+    color:white;
+    width:150px;
+    border-radius:5px
+}
+#PressRelease p{
+    color:blue;
+    font-weight:bold
+}
+#AwardsRecognition{
+    position:absolute;
+    top:30%;
+    right:1px;
+    margin-left:10px;
+    padding:10px;
+}
+#AwardsRecognition h4{
+    background-color:#00AE4D;
+    color:white;
+    width:150px;
+    padding:5px 10px;
+    border-radius:5px
+}
+#AwardsRecognition p{
+    color:blue;
+    font-weight:bold
+}
+#Announcements{
+    position:absolute;
+    top:50%;
+    margin-left:10px;
+    padding:10px;
+}
+#Announcements h4{
+    background-color:#00AE4D;
+    color:white;
+    width:170px;
+    padding:5px 10px;
+    border-radius:5px
+}
+#Announcements p{
+    color:blue;
+    font-weight:bold
+}

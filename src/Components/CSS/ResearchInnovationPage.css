@@ -1,0 +1,210 @@
+.ResearchInnovationPage{
+    background-color:#ECE1E8;
+    margin-top:40px;
+    padding:20px;
+}
+.ResearchInnovationPage-header{
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align:center;
+   
+}
+.ResearchInnovationPage-header .Showbtn1{
+    background-color:#2B357D;
+    color:white
+}
+.ResearchInnovationPage-header .Showbtn2{
+    background-color:#2B357D;
+    color:white
+}
+.ResearchInnovationPage-header #btn1{
+    margin:10px;
+    padding:10px 20px;
+    border-radius:8px;
+   }
+   .ResearchInnovationPage-header .btn1{
+    color:#00AE4D;
+    background-color:transparent;
+    border:none
+   
+   }
+.ResearchInnovationPage-header #btn2{
+    margin:10px;
+    padding:10px 20px;
+    border-radius:8px;
+    
+}
+
+.ResearchInnovationPage-header .btn2{
+    color:#00AE4D;
+    background-color:transparent;
+    border:none
+}
+.ResearchInnovationPage-content{
+    text-align:center;
+}
+.ResearchInnovationPage-content-RI{
+    display:flex;
+    justify-content:center;
+    width:90%;
+    flex-wrap:wrap;
+    overflow:hidden
+  }
+ .ResearchInnovationPage-content-RI img{
+    width:45%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:transform 0.3s ease-in-out
+    
+ }
+ .ResearchInnovationPage-content-RI img:hover{
+    transform:scale(1.05)
+ }
+ .ResearchInnovationPage-content-RI .ResearchInnovation-content-RI-text{
+    width:45%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+ }
+
+.ResearchInnovation-content-RI-text{
+    padding:20px;
+    text-align:left;
+    }
+
+
+.ResearchInnovation-content-RI-text{
+    background-color:#2B357D;
+    padding:20px;
+}
+
+.ResearchInnovation-content-RI-text h4{
+    color:white;
+    font-size:30px;
+    margin-bottom:20px;
+    font-weight:bold
+}
+.ResearchInnovation-content-RI-text p{
+    color:white;
+    font-size:15px;
+    margin-bottom:20px;
+    font-weight:normal
+}
+.ResearchInnovation-content-RI-text button{
+    background-color:#00AE4D;
+    color:white;
+    font-size:20px;
+    padding:10px 30px;
+    border:none;
+    border-radius:8px
+}
+.ResearchInnovationPage-content-Manufacturing{
+    display:flex;
+    justify-content:center
+}
+
+@media(max-width:400px){
+    .ResearchInnovationPage-content-RI{
+       flex-direction:column;
+       align-items:center;
+       
+    }
+    .ResearchInnovationPage-content-RI img{
+    width:45%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:0px
+    
+ }
+
+ .ResearchInnovationPage-content-RI .ResearchInnovation-content-RI-text{
+    width:45%;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+ }
+} 
+
+/* Manufacturing */
+.ResearchInnovationPage-content{
+    text-align:center;
+}
+.ResearchInnovationPage-content-Manufacturing{
+    display:flex;
+    justify-content:center;
+    width:90%;
+    flex-wrap:wrap;
+    overflow:hidden
+  }
+  .ResearchInnovationPage-content-Manufacturing img{
+    width:45%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    transition:transform 0.3s ease-in-out
+    
+ }
+ .ResearchInnovationPage-content-Manufacturing img:hover{
+    transform:scale(1.05)
+ }
+ .ResearchInnovationPage-content-Manufacturing .Manufacturing-content-RI-text{
+    width:45%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+ }
+
+ .Manufacturing-content-RI-text{
+    padding:20px;
+    text-align:left;
+    }
+
+
+.Manufacturing-content-RI-text{
+    background-color:#2B357D;
+    padding:20px;
+}
+
+.Manufacturing-content-RI-text h4{
+    color:white;
+    font-size:30px;
+    margin-bottom:20px;
+    font-weight:bold
+}
+.Manufacturing-content-RI-text p{
+    color:white;
+    font-size:15px;
+    margin-bottom:20px;
+    font-weight:normal
+}
+.Manufacturing-content-RI-text button{
+    background-color:#00AE4D;
+    color:white;
+    font-size:20px;
+    padding:10px 30px;
+    border:none;
+    border-radius:8px
+}
+.ResearchInnovationPage-content-Manufacturing{
+    display:flex;
+    justify-content:center
+}
+
+@media(max-width:400px){
+    .ResearchInnovationPage-content-Manufacturing{
+       flex-direction:column;
+       align-items:center;
+       
+    }
+    .ResearchInnovationPage-content-Manufacturing img{
+    width:45%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:0px
+    
+ }
+
+ .ResearchInnovationPage-content-Manufacturing .Manufacturing-content-RI-text{
+    width:45%;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+ }
+} 
