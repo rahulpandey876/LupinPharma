@@ -13,7 +13,7 @@ import AOS from 'aos';
 
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import CartButton from './CartButton';
+
 
 
 
@@ -42,7 +42,7 @@ const App=()=>{
     </Routes>
     <div>
     <FooterPage/>
-    <CartButton/>
+    
     
     
     </div>
